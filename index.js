@@ -5,6 +5,6 @@ const code = document.querySelector('.container__code')
 list.addEventListener('click', onClick)
 
 function onClick() {
-    button.classList.remove('is-hidden')
-    code.classList.remove('is-hidden')
+    button.classList.toggle('is-hidden')
+    code.classList.toggle('is-hidden')
 }
